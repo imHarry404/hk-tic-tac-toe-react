@@ -23,17 +23,9 @@ npm start  # it will start the react app on
 
 ### to contanerized it
 install these softwares on ubuntu machine
-vi prep-req.sh
-  sudo apt update -y
-  sudo apt install docker.io -y
-  sudo apt install docker-compose -y
-  sudo systemctl start docker
-  sudo systemctl enable docker
-  sudo usermod -a -G docker $(whoami)
-  newgrp docker
-  systemctl status docker
-save & exit
+file is present in repo
 give execute permission
+
 **chmod +x  prep-req.sh**
 
 ##wait till it finishes.
